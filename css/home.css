@@ -1,0 +1,159 @@
+
+body, html {
+     overflow-x: hidden;
+}
+
+#main-page {
+     background-image: url("../img/main_page_image.png");
+     background-size: 120vh;
+     background-position-x: center;
+     background-repeat: no-repeat;
+     margin-top: 0px;
+}
+
+#top-bar {
+     border-bottom: 2px solid white;
+}
+
+#top-bar-label {
+     position: absolute;
+     width: 100%;
+     font-size: x-large;
+}
+
+#topbar-right {
+     flex-direction: row-reverse;
+}
+
+.topbar-item {
+     padding: 0.4em;
+     font-size: 1.2em;
+     margin: 8px;
+     margin-left: 8px;
+     margin-right: 8px;
+}
+a.topbar-item {
+     border: 2px dotted white;
+     z-index: 3;
+     border-radius: 8px;
+     text-decoration: none;
+     transition-duration: 0.3s;
+}
+
+a.topbar-item:hover {
+     padding: 0.2em;
+     transition-duration: 0.3s;
+}
+a.topbar-item:hover > p {
+     font-size: 1.3em;
+     transition-duration: 0.3s;
+     text-shadow: 0 0 16px white;
+}
+a.topbar-item > p {
+     transition-duration: 0.3s;
+     transform: translateY(5%);
+}
+
+#ready-for-discovery {
+     border-top: 2px dashed gray;
+     padding-top: 5vh;
+     width: 65vw;
+}
+
+#go-down {
+     padding: 16px;
+     border-radius: 100%;
+     color: var(--fg);
+     background-color: var(--bg);
+     border: 2px dashed white;
+     font-size: 2.5em;
+     height: 80px;
+     aspect-ratio: 1;
+     transition-duration: 0.3s;
+}
+#go-down:hover {
+     background-color: var(--bg2);
+     cursor: pointer;
+     transition-duration: 0.3s;
+     font-size: 4em;
+     transform: translateY(30%);
+}
+#go-down > p {
+     transform: translateY(-10%);
+     transition-duration: 0.3s;
+}
+#go-down:hover > p {
+     transform: translateY(-25%);
+     transition-duration: 0.3s;
+}
+
+.primary-panel {
+     border: 2px solid white;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     box-shadow: 0 0 16px rgba(255, 255, 255, 200);
+     transition-duration: 0.3s;
+     border-radius: 8px;
+     background-repeat: none;
+     background-position-x: center;
+     background-size: auto 100%;
+}
+.primary-panel > a {
+     width: 100%;
+     font-size: 2em;
+     filter:
+          drop-shadow(0 0 8px black)
+          drop-shadow(0 0 8px black)
+          drop-shadow(0 0 16px black)
+          drop-shadow(0 0 16px black)
+          drop-shadow(0 0 32px black)
+          drop-shadow(0 0 32px black);
+     padding-top: 17vh;
+     padding-bottom: 17vh;
+     padding-left: 3vw;
+     padding-right: 3vw;
+}
+
+.primary-panel:has(a:hover) {
+     box-shadow: 0 0 96px rgba(255, 255, 255, 200);
+     transform: scale(105%);
+     transition-duration: 0.3s;
+}
+
+#primary-hal {
+     background-image: url("../img/hal9000.png");
+}
+#primary-crew {
+     background-image: url("../img/crew.png");
+}
+#primary-mission {
+     background-image: url("../img/mission.png");
+}
+
+#content {
+  position: relative;
+  z-index: 0;
+}
+
+#content::before {
+     content: "";
+     position: absolute;
+     inset: 0;
+     
+     background:
+          linear-gradient(
+               to top,
+               rgba(0, 0, 0, 0.7),
+               rgba(0, 0, 0, 1)
+          ),
+          url("../img/stars.png");
+     
+     filter: saturate(0.2);
+     
+     z-index: -1;
+}
+
+#credits {
+     border-top: 2px solid white;
+}
