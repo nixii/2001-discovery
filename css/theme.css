@@ -111,10 +111,6 @@ body, html {
      color: gray;
      font-style: italic;
      margin-left: 8px;
-     
-     -webkit-user-select: none;
-     -ms-user-select: none;
-     user-select: none;
 }
 
 .align-right { align-self: right; }

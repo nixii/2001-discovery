@@ -96,7 +96,7 @@ a.topbar-item > p {
      transition-duration: 0.3s;
      border-radius: 8px;
      background-repeat: none;
-     background-position-x: center;
+     background-position: center;
      background-size: auto 100%;
 }
 .primary-panel > a {
@@ -117,9 +117,10 @@ a.topbar-item > p {
 
 .primary-panel:has(a:hover) {
      box-shadow: 0 0 96px rgba(255, 255, 255, 200);
-     transform: scale(105%);
+     transform: scale(110%);
      transition-duration: 0.3s;
 }
+
 
 #primary-hal {
      background-image: url("../img/hal9000.png");
@@ -144,12 +145,12 @@ a.topbar-item > p {
      background:
           linear-gradient(
                to top,
-               rgba(0, 0, 0, 0.7),
+               rgba(0, 0, 0, 0.5),
                rgba(0, 0, 0, 1)
           ),
           url("../img/stars.png");
      
-     filter: saturate(0.2);
+     filter: saturate(0.3);
      
      z-index: -1;
 }
