@@ -36,6 +36,9 @@ body, html {
      text-align: center;
      align-items: center;
 }
+.align-right {
+     text-align: right;
+}
 
 .vbox {
      display: flex;
@@ -76,10 +79,13 @@ body, html {
 .w80vw { width: 80vw; }
 .w90vw { width: 90vw; }
 .w100vw { width: 100vw; }
+.w100percent { width: 100%; }
 
 .top20vh { top: 20vh; }
 
+.mb5vh { margin-bottom: 5vh; }
 .mt10vh { margin-top: 10vh; }
+.mb10vh { margin-bottom: 10vh; }
 .mt15vh { margin-top: 15vh; }
 .mt20vh { margin-top: 20vh; }
 .mt25vh { margin-top: 25vh; }
@@ -87,6 +93,8 @@ body, html {
 
 .ml5vw { margin-left: 5vw; }
 .mr5vw { margin-right: 5vw; }
+.ml10vw { margin-left: 10vw; }
+.mr10vw { margin-right: 10vw; }
 
 .pt5vh { padding-top: 5vh; }
 .pb5vh { padding-bottom: 5vh; }
@@ -106,6 +114,15 @@ body, html {
 .text-anchor-top { text-anchor: top; }
 
 .mh64px { min-height: 64px; }
+
+.font-size-large { font-size: large; }
+.font-size-larger { font-size: larger; }
+
+.font-size-1em { font-size: 1em; }
+.font-size-1-5em { font-size: 1.5em; }
+.font-size-2em { font-size: 2em; }
+
+.justified { text-align: justify; }
 
 .image-credit {
      color: gray;

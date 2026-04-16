@@ -1,57 +1,9 @@
 
-body, html {
-     overflow-x: hidden;
-}
-
 #main-page {
      background-image: url("../img/main_page_image.png");
      background-size: 120vh;
      background-position-x: center;
      background-repeat: no-repeat;
-     margin-top: 0px;
-}
-
-#top-bar {
-     border-bottom: 2px solid white;
-}
-
-#top-bar-label {
-     position: absolute;
-     width: 100%;
-     font-size: x-large;
-}
-
-#topbar-right {
-     flex-direction: row-reverse;
-}
-
-.topbar-item {
-     padding: 0.4em;
-     font-size: 1.2em;
-     margin: 8px;
-     margin-left: 8px;
-     margin-right: 8px;
-}
-a.topbar-item {
-     border: 2px dotted white;
-     z-index: 3;
-     border-radius: 8px;
-     text-decoration: none;
-     transition-duration: 0.3s;
-}
-
-a.topbar-item:hover {
-     padding: 0.2em;
-     transition-duration: 0.3s;
-}
-a.topbar-item:hover > p {
-     font-size: 1.3em;
-     transition-duration: 0.3s;
-     text-shadow: 0 0 16px white;
-}
-a.topbar-item > p {
-     transition-duration: 0.3s;
-     transform: translateY(5%);
 }
 
 #ready-for-discovery {
@@ -153,8 +105,4 @@ a.topbar-item > p {
      filter: saturate(0.3);
      
      z-index: -1;
-}
-
-#credits {
-     border-top: 2px solid white;
 }
