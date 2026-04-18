@@ -52,6 +52,7 @@ a.topbar-item > p {
 
 #credits {
      border-top: 2px solid white;
+     background-color: var(--bg);
 }
 
 .section-image > img {
@@ -61,6 +62,7 @@ a.topbar-item > p {
      object-fit: cover;
      margin: auto;
      box-shadow: 0 0 16px white;
+     border-radius: 8px;
      transition-duration: 0.3s;
 }
 
@@ -71,4 +73,11 @@ a.topbar-item > p {
 }
 .section-image {
      display: flex;
+     border-radius: 8px;
+}
+
+.textshadow {
+     text-shadow: 
+          2px 2px 16px rgb(40,40,40),
+          2px 2px 8px rgb(40,40,40);
 }

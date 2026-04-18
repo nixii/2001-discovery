@@ -28,7 +28,7 @@ h3 {
 }
 
 body, html {
-     background-color: var(--bg);
+     background-color: var(--bg); 
 }
 
 .align-center {
