@@ -77,7 +77,5 @@ a.topbar-item > p {
 }
 
 .textshadow {
-     text-shadow: 
-          2px 2px 16px rgb(40,40,40),
-          2px 2px 8px rgb(40,40,40);
+     text-shadow: 2px 2px 0px black;
 }
